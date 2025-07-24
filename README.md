@@ -1,13 +1,13 @@
 # Add
 Addition of two numbers in python
-Explanation:
+Explanation:     
 num1 and num2 are two variables storing numbers.
 + is the addition operator.
 print() displays the result.
 
 #Print 5 numbers
 
-Explanation:
+Explanation:   
 i = int(input("Enter a number: "))
 This line takes a number as input from the user and stores it as an integer in variable i.
 For example, if the user types 3, then i = 3.
@@ -21,7 +21,7 @@ This increases i by 1 every time the loop runs, so the loop eventually stops whe
 
 #Print i to n
 
-Explanation:
+Explanation:    
 n = int(input("Enter a number: "))
 Takes a number from the user and stores it in variable n.
 Example: If user enters 5, then n = 5.
@@ -36,7 +36,7 @@ Increases i by 1 in each loop so the loop moves forward and eventually stops.
 
 #Reverse Print
 
-Explanation:
+Explanation:   
 i = int(input("Enter a number: "))
 Takes a number as input from the user and stores it in variable i.
 Example: If user enters 5, then i = 5.
@@ -48,7 +48,9 @@ Displays the current value of i.
 i = i - 1
 Decreases i by 1 in each loop step to go backwards.
 
-Explanation:
+#Sum of numbers from 1 to n
+
+Explanation:  
 n = int(input("Enter a number: "))
 → Takes a number n from the user to specify the upper limit.
 Example: if user enters 5, we want to find 1 + 2 + 3 + 4 + 5.
@@ -67,14 +69,14 @@ print(m)
 
 #Equilateral or Isosceles or Scalene Triangle
 
-Explanation:
+Explanation:  
 Checks if all three sides are equal → then it’s an Equilateral Triangle.
 If any two sides are equal → it’s an Isosceles Triangle.
 If all sides are different → it’s a Scalene Triangle.
 
 #Perimeter and area of a rectangle
 
-Explanation:
+Explanation:  
 The program asks the user to enter the length and breadth of a rectangle.
 It then calculates:
   Perimeter using the formula 2 × (length + breadth)
@@ -83,7 +85,7 @@ Finally, it prints both the perimeter and area of the rectangle.
 
 #Sum of Squares from 1 to n 
 
-Explanation:
+Explanation:  
 The program starts by taking a number n from the user, which is the range limit.
 It then uses a while loop to go from 1 to n, and in each step, it:
 Squares the current number (i × i)
